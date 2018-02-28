@@ -6,31 +6,51 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.adams.zattoni.javaee.sample</groupId>
     <artifactId>injection-default</artifactId>
-    <version>1.0</version>
+    <version>1.0.0</version>
     <packaging>war</packaging>
+
+    <properties>
+        <javaee.version>6.0</javaee.version>
+        <lombok.version>1.16.20</lombok.version>
+        <junit.version>4.12</junit.version>
+        <jersey.version>2.21</jersey.version>
+    </properties>
 
     <dependencies>
 
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
-            <version>6.0</version>
+            <version>${javaee.version}</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
 
+        <!-- @TODO remover -->
         <dependency>
             <groupId>org.apache.derby</groupId>
             <artifactId>derby</artifactId>
             <version>10.11.1.1</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-json-jackson</artifactId>
+            <version>${jersey.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

@@ -9,7 +9,7 @@ import org.adams.zattoni.javaee.sample.domain.Book;
 @Stateless
 public class ItemEJB {
 
-  @PersistenceContext(unitName = "sampleCdiInjectDefaultPU")
+  @PersistenceContext(unitName = "antifraudes")
   private EntityManager em;
 
   public Book getBook(Long id) {
