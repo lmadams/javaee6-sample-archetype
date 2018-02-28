@@ -1,4 +1,4 @@
-package org.agoncal.sample.cdi.inject.simple.exception;
+package org.adams.zattoni.javaee.sample.exception;
 
 import javax.ws.rs.core.Response;
 import javax.ws.rs.ext.ExceptionMapper;

@@ -1,4 +1,4 @@
-package org.agoncal.sample.cdi.inject.simple;
+package org.adams.zattoni.javaee.sample.resource;
 
 import java.util.List;
 import javax.annotation.ManagedBean;
@@ -10,6 +10,9 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import org.adams.zattoni.javaee.sample.service.IsbnGenerator;
+import org.adams.zattoni.javaee.sample.service.ItemEJB;
+import org.adams.zattoni.javaee.sample.domain.Book;
 
 @Path("/items")
 @ManagedBean

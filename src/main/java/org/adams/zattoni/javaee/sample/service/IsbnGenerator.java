@@ -1,4 +1,4 @@
-package org.agoncal.sample.cdi.inject.simple;
+package org.adams.zattoni.javaee.sample.service;
 
 import java.util.Random;
 import java.util.logging.Logger;

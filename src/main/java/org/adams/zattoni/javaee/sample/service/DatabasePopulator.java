@@ -1,4 +1,4 @@
-package org.agoncal.sample.cdi.inject.simple;
+package org.adams.zattoni.javaee.sample.service;
 
 import java.util.logging.Logger;
 import javax.annotation.PostConstruct;
@@ -6,6 +6,7 @@ import javax.annotation.sql.DataSourceDefinition;
 import javax.ejb.Singleton;
 import javax.ejb.Startup;
 import javax.inject.Inject;
+import org.adams.zattoni.javaee.sample.domain.Book;
 
 @DataSourceDefinition(name = "java:global/jdbc/sampleCdiInjectDefaultDS",
     className = "org.apache.derby.jdbc.EmbeddedDriver",

@@ -1,4 +1,4 @@
-package org.agoncal.sample.cdi.inject.simple;
+package org.adams.zattoni.javaee.sample.domain;
 
 import java.util.ArrayList;
 import java.util.List;

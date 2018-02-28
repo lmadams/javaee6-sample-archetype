@@ -1,10 +1,11 @@
-package org.agoncal.sample.cdi.inject.simple;
+package org.adams.zattoni.javaee.sample.config;
 
 import java.util.HashSet;
 import java.util.Set;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
-import org.agoncal.sample.cdi.inject.simple.exception.ApplicationExceptionMapper;
+import org.adams.zattoni.javaee.sample.resource.ItemRestService;
+import org.adams.zattoni.javaee.sample.exception.ApplicationExceptionMapper;
 
 @ApplicationPath("/rs")
 public class ApplicationConfig extends Application {

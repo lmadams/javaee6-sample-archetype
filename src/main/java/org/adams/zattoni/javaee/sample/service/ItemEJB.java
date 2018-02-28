@@ -1,9 +1,10 @@
-package org.agoncal.sample.cdi.inject.simple;
+package org.adams.zattoni.javaee.sample.service;
 
 import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import org.adams.zattoni.javaee.sample.domain.Book;
 
 @Stateless
 public class ItemEJB {
